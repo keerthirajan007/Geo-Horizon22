@@ -390,11 +390,11 @@
       <header class="section-header">
         <h2 style="font-size:1rem">Accommodation Facilities</h2>
       </header>
-      <div id="accommodation-content" class="row gy-4">
+      <div id="accommodation-content" class="row gy-4 text-center">
           <p>Students who want to avail hostel stay for attending events and workshops in GeoHorizon'22 Click below</p>
         </div>
         <div style="width:fit-content;margin:auto">
-          <a role="button" class="btn btn-flat btn-custom-blue" target="_blank" href="https://forms.gle/HTHFeeAaUci9uz7P8">Register Accommodation</a>
+          <a role="button" class="btn btn-flat btn-custom-blue" target="_blank" href="https://forms.gle/HTHFeeAaUci9uz7P8">Register</a>
         </div>
     </div>
   </section>

@@ -10,6 +10,9 @@ var dom = {
   home: {
     container: document.getElementById("home"),
   },
+  brochure: {
+    container: document.getElementById("testimonials"),
+  },
   event: {
     container: document.getElementById("event"),
     technical_event: document.getElementById("technical-event-content"),
@@ -67,12 +70,14 @@ function setMainContent(tab) {
   dom.team.container.style.display = "none";
   dom.features.container.style.display = "none";
   dom.accommodation.container.style.display = "none";
+  dom.brochure.container.style.display = "none";
   upper_space.style.padding = "1rem";
 
   if (tab == "home") {
     upper_space.style.padding = "0rem";
     dom.features.container.style.display = "inherit";
     dom.home.container.style.display = "flex";
+    dom.brochure.container.style.display = "inherit";
     // dom.sponsors.container.style.display = "inherit";
     dom.event.container.style.display = "inherit";
     dom.accommodation.container.style.display = "inherit";
