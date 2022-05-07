@@ -394,7 +394,7 @@
           <p>Students who want to avail hostel stay for attending events and workshops in GeoHorizon'22 Click below</p>
         </div>
         <div style="width:fit-content;margin:auto">
-          <a role="button" class="btn btn-flat btn-custom-blue" target="_blank" href="https://forms.gle/HTHFeeAaUci9uz7P8">Register</a>
+          <a role="button" class="btn btn-flat btn-custom-blue" target="_blank" href="https://forms.gle/8nsuBaGQ92wWPMnw7">Register</a>
         </div>
     </div>
   </section>
