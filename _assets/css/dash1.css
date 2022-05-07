@@ -1,0 +1,34 @@
+textarea{
+    overflow: hidden;
+}
+
+body{
+    overflow: hidden;
+}
+
+#content{
+    overflow: auto;
+    min-height: 0% !important;
+}
+
+.loading-screen{
+    z-index: 5000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(4px);
+}
+
+.spin-center{
+    left: 50%;
+    margin-left: -4em;
+}
+
+.note-editor.fullscreen{
+    margin-top: 4rem;
+}
