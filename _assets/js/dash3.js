@@ -48,6 +48,9 @@ var dom = {
   features: {
     container: document.getElementById("features"),
   },
+  accommodation: {
+    container: document.getElementById("accommodation"),
+  },
 };
 
 dom.expandModal.switch = $(dom.expandModal.container);
@@ -76,22 +79,26 @@ function setMainContent(tab) {
   dom.team.container.style.display = "none";
   dom.features.container.style.display = "none";
   dom.profile.container.style.display = "none";
+  dom.accommodation.container.style.display = "none";
   upper_space.style.padding = "1rem";
 
   if (tab == "home") {
     upper_space.style.padding = "0rem";
     dom.features.container.style.display = "inherit";
     dom.home.container.style.display = "flex";
-    dom.sponsors.container.style.display = "inherit";
+    // dom.sponsors.container.style.display = "inherit";
     dom.event.container.style.display = "inherit";
+    dom.accommodation.container.style.display = "inherit";
     dom.workshop.container.style.display = "inherit";
     // dom.team.container.style.display = "inherit";
     dom.about.container.style.display = "inherit";
   } else if (tab == "about") {
     dom.about.container.style.display = "inherit";
   } else if (tab == "event") {
+    dom.accommodation.container.style.display = "inherit";
     dom.event.container.style.display = "inherit";
   } else if (tab == "workshop") {
+    dom.accommodation.container.style.display = "inherit";
     dom.workshop.container.style.display = "inherit";
   } else if (tab == "sponsors") {
     dom.sponsors.container.style.display = "inherit";

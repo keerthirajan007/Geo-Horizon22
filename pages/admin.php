@@ -681,8 +681,6 @@
                                     <select required class="form-control" id="event-type" name="event-type">
                                         <option value="event-technical">Technical Event</option>
                                         <option value="event-non-technical">Non Technical Event</option>
-                                        <option value="event-carnival">Carnival Event</option>
-                                        <option value="event-other">Other Event</option>
                                         <option value="workshop">Workshop</option>
                                     </select>
                                 </div>

@@ -68,7 +68,7 @@
         <ul>
           <li onclick="setMainContent('home')"><a class="nav-link scrollto" href="#">Home</a></li>
           <li onclick="setMainContent('about')"><a class="nav-link scrollto" href="#">About</a></li>
-          <li onclick="setMainContent('sponsors')"><a class="nav-link scrollto" href="#">Sponsors</a></li>
+          <!-- <li onclick="setMainContent('sponsors')"><a class="nav-link scrollto" href="#">Sponsors</a></li> -->
           <li onclick="setMainContent('event')"><a class="nav-link scrollto" href="#">Events</a></li>
           <li onclick="setMainContent('workshop')"><a class="nav-link scrollto" href="#">Workshops</a></li>
           <!-- <li onclick="setMainContent('team')"><a class="nav-link scrollto" href="#">Team</a></li> -->
@@ -155,6 +155,98 @@
             </div>
         </div>
     </section>
+    
+    <section id="testimonials" class="testimonials">
+    <div class="container" data-aos="fade-up">
+      <header class="section-header">
+        <p>Brochure</p>
+      </header>
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <img src="../_assets/img/EARTH .png" alt="" srcset="">
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                  class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section><!-- End Testimonials Section -->
 
   <section id="about">
 
@@ -387,7 +479,19 @@
     </div>
   </section>
   <!-- End Testimonials Section -->
-
+  <section id="accommodation" class="services">
+    <div class="container" data-aos="fade-up">
+      <header class="section-header">
+        <h2 style="font-size:1rem">Accommodation Facilities</h2>
+      </header>
+      <div id="accommodation-content" class="row gy-4">
+          <p>Students who want to avail hostel stay for attending events and workshops in GeoHorizon'22 Click below</p>
+        </div>
+        <div style="width:fit-content;margin:auto">
+          <button class="btn btn-flat btn-custom-blue"  href="#">Register Accommodation</button>
+        </div>
+    </div>
+  </section>
   <!-- ======= Features Section ======= -->
   <div id="features">
     <section class="features">
